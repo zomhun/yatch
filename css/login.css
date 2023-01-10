@@ -1,0 +1,258 @@
+.body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: #000;
+    font-size:100%;
+    letter-spacing: 1px; 
+    background-image: url("../image/Aft20View20At20night.png");
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+}
+
+a {
+    color: #BBB;
+}
+.content {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    box-shadow: 0 0 10px black;
+    margin: 3% auto auto;
+    padding: 40px;
+    width: 540px;
+}
+.content h5{
+    font-size: large;
+    color: #fff;
+}
+.content .title {
+    text-align: center;
+    font-size: 2.0rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color:#fff;
+}
+.content input {
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: "Open Sans";
+    margin: 10px 0px;
+    border: none;
+    padding: 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.content input[type=checkbox] {
+    display: none;
+}
+.content label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 10px;
+    top: 10px;
+}
+.content label:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #eee;
+    -moz-box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.3), 0px 1px 0px 0px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.3), 0px 1px 0px 0px rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.3), 0px 1px 0px 0px rgba(255, 255, 255, 0.8);
+}
+.content input[type=checkbox]:checked + label:before {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    color: Black;
+    text-align: center;
+    line-height: 20px;
+}
+.content span {
+    font-size: 0.9rem;
+    color:#fff;
+}
+.content button {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px;
+    margin: 20px 0px;
+    background-color: #000F35;
+    color: White;
+    border: none;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.content button:hover{
+    color: #7e7e7e;
+}
+.content .social {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.content .social span {
+    display: inline-block;
+    vertical-align: baseline;
+    padding: 0 20px;
+}
+.content .social span:before, .content .social span:after {
+    content: '';
+    display: block;
+    width: 500px;
+    position: absolute;
+    top: 0.9em;
+    border-top: 1px solid White;
+}
+.content .social span:before {
+    right: 75%;
+}
+.content .social span:after {
+    left: 75%;
+}
+.content .buttons {
+    width: 100%;
+    margin: 30px 0px;
+}
+.content .buttons button {
+    float: left;
+    width: 30%;
+    margin: 0px 1.5%;
+}
+.content .buttons button i {
+    padding-right: 7px;
+}
+.content .buttons button.facebook {
+    background-color: #4464B2;
+}
+.content .buttons button.twitter {
+    background-color: #28A9E0;
+}
+.content .buttons button.google {
+    background-color: #DA4735;
+}
+.content .buttons:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.content .already {
+    text-align: center;
+    font-size: 0.9rem;
+    color:#fff;
+}
+.already a {
+    background-color: #000F35;
+    border-radius: 4px;
+    color: #fff;
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.already a:hover{
+    color: #7e7e7e;
+}
+.copyright {
+    color: #fff;
+    font-size: 15px;
+    padding: 30px 0 20px;
+    text-align: center;
+}
+.copyright a{
+    color: #000F35;
+    text-decoration: none;
+}
+.form-check{
+    position: relative;
+    margin: -10px 0 40px -20px;
+}
+.form-check-label span{
+    margin-left: 30px;
+    display: block;
+    width: 150px;
+    font-size: 16px;
+}
+.footer{
+    margin-top: 0px;
+}
+@media (max-width: 767px){
+    .content {
+        width: 380px;
+    }
+    .content .title {
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    .content h5{
+        font-size: 0.8rem;
+    }
+    .content input {
+        font-size: 0.8rem;
+    }
+    .content span {
+        font-size: 0.8rem;
+    }
+    .content button {
+        font-size: 1rem;
+    }
+    .content .already {
+        font-size: 0.8rem;
+    }
+    .content .social span::before {
+        right: 78%;
+    }
+    .content .social span::before, .content .social span::after {
+        top: 1em;
+    }
+    .content .social span::after {
+        left: 78%;
+    }
+    .copyright {
+        font-size: 13px;
+    }
+}
+@media (max-width: 400px){
+    .content {
+        width: 300px;
+    }
+    .content .title {
+        font-size: 1.2rem;
+    }
+    .content .social span::before, .content .social span::after {
+        top: 0.7em;
+    }
+    .content .social span::before {
+        right: 90%;
+    }
+    .content .social span::after {
+        left: 90%;
+    }
+    .content .buttons button {
+        float: left;
+        margin: 5px 1.5%;
+        width: 100%;
+    }
+    .content button {
+        font-size: 0.9rem;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+}

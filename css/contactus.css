@@ -1,0 +1,151 @@
+.test{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #000F35;
+}
+.fix{
+    padding: 10px 300px;
+}
+.b .btn{
+    border: 1px solid;
+    cursor: pointer;
+    width: 135px;
+    background-color: #000F35;
+    color: white;
+}
+.box_feedback {
+    padding: 40px;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 670px;
+    color: #000F35;
+    background-color: #D1E0E8;
+  }
+  
+
+  body{
+    background-color:white;
+  }
+  #phone-error{
+    white-space: nowrap;
+  }
+  #name-error{
+    white-space: nowrap;
+  }
+  #day-error{
+    white-space: nowrap;
+  }
+@media screen and (min-width: 1440px){
+    .fix{
+        padding: 10px 400px !important;
+    }
+}
+@media screen and (max-width: 1025px){
+    .fix{
+        padding: 10px 200px !important;
+    }
+}
+@media screen and (max-width: 769px){
+    .fix{
+        padding: 10px 90px !important;
+    }
+}
+
+@media screen and (min-width: 320px){
+    .carousel-item img{
+        height: 200px;
+    }
+    .col-xs-12 .card img{
+        width: 100%;
+    }
+    .col-xs-12 .card-bot img{
+        width: 100%;
+    }
+    .card-img-overlay h1{
+        font-size: smaller;
+    }
+    #login-content img{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 720px){
+    .col-xs-12 .card img{
+        height: 250px;
+    }
+    .col-xs-12 .card-bot img{
+        height: 250px;
+    }
+    .card {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .carousel-item img{
+        height: 400px;
+    }
+    a{
+        font-size: smaller;
+    }
+}
+@media screen and (min-width: 1024px){
+    .col-md-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .carousel-item img{
+        height: 800px;
+    }
+    
+}
+
+
+@media screen and (max-width: 426px){
+    .box_feedback{
+    padding: 10px 5px 695px 5px!important;
+    border-radius: 0px;
+    }
+    .b{
+        width: 180px;
+        float: left;
+    }
+    .fix{
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 425px){
+    .box_feedback{
+    padding: 10px 5px 708px 5px!important;
+    border-radius: 0px;
+    }
+    .b{
+        width: 180px !important;
+        float: left;
+    }
+    .fix{
+        padding: 0px !important;
+    }
+}
+.aa{
+    float: right;
+}
+.b{
+    width: 310px;
+    float: left;
+}
+ul{
+    list-style: none;
+    padding-inline-start: 0%;
+}
+ul li a{
+    margin-right: 10px;
+    color: black;
+}
+ 

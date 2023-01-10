@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../image/logo_du_thuyen.png"/>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/new.css">
+    <script src="../sliderengine/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/f87f4dddd7.js" crossorigin="anonymous"></script>
+    <script src="../sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="../sliderengine/amazingslider-1.css">
+    <script src="../sliderengine/initslider-1.js"></script>
+    <title>Marina Fleet</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="home.html"><img src="../image/logo_du_thuyen.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="category.html">CATEGORY</a>
+                    <div class="menu">
+                        <div class="menu-1">
+                            <div class="menu-2">
+                                <ul>
+                                    <li class="menu-item">
+                                        <a href="boat.html">BOAT</a>
+                                        <ul>
+                                            <li>Air Boat</li>
+                                            <li>Fishing Boat</li>
+                                            <li>Jet Boat</li>
+                                            <li>Sailboats</li>
+                                            <li>Personal Watercraft</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="menu-item">
+                                        <a href="yacht.html">YACHT</a>
+                                        <ul>
+                                            <li><a href="superyacht.html">Super Yacht</a></li>
+                                            <li><a href="#">Explorer Yacht</a></li>
+                                            <li><a href="#">Racing Yacht</a></li>
+                                            <li><a href="#">Sailing Yacht</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NEWS</a>
+                </li>
+            </ul>
+            <div class="search-box">
+                <div class="input-box">
+                    <input type="text" placeholder="Search here">
+                </div>
+                <div class="button-box">
+                    <img src="../image/search.png" alt="">
+                </div>
+                <script>
+                    $('.search-box .input-box input').focus(
+                        () => {
+                            $('.search-box .input-box').addClass('active')
+                        }
+                    );
+                    $('.search-box .input-box input').blur(
+                        () => {
+                            $('.search-box .input-box').removeClass('active');
+                        }
+                    );
+                </script>
+            </div>
+            <a class="navbar-brand" href="login.html">
+                <i class="fas fa-user-circle"></i>
+            </a>
+            <a class="navbar-brand" href="cart.html">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+        </div>
+    </nav>
+
+    <div class="amazingslider-wrapper" id="amazingslider-wrapper-1"
+        style="display:block;position:relative;max-width:1500px;margin:0px auto 56px;">
+        <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="../images/NK85_WD_Pressemeldung.jpg" alt="banner" title="banner" />
+                    <video preload="none" src="../images/banner.mp4"></video>
+                </li>
+                <li><img src="../images/kairos-render.jpg" alt="kairos-render" title="kairos-render" />
+                </li>
+                <li><img src="../images/NK85_WD_Pressemeldung.jpg" alt="NK85_WD_Pressemeldung"
+                        title="NK85_WD_Pressemeldung" />
+                </li>
+                <li><img src="../images/ZHA_B_V_Birdseye_view_128m.jpg" alt="ZHA_B_V_Birdseye_view_128m"
+                        title="ZHA_B_V_Birdseye_view_128m" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="../images/NK85_WD_Pressemeldung-tn.jpg" alt="banner" title="banner" /></li>
+                <li><img src="../images/kairos-render-tn.jpg" alt="kairos-render" title="kairos-render" /></li>
+                <li><img src="../images/NK85_WD_Pressemeldung-tn.jpg" alt="NK85_WD_Pressemeldung"
+                        title="NK85_WD_Pressemeldung" /></li>
+                <li><img src="../images/ZHA_B_V_Birdseye_view_128m-tn.jpg" alt="ZHA_B_V_Birdseye_view_128m"
+                        title="ZHA_B_V_Birdseye_view_128m" /></li>
+            </ul>
+            <div class="amazingslider-engine"><a href="http://amazingslider.com" title="jQuery Slider">jQuery
+                    Slider</a></div>
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="New">
+            <h1 class="title"> New product </h1>
+            <div class="row">
+                <div class="col col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="card h-100">
+                        <img src="../image/Superyacht/3610_05724.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title card-cat">SUPER YACHT</h3>
+                            <h5 class="card-title">VIBRANCE</h5>
+                            <p class="card-text">Amels | $ 53.3m | 12 guests</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="../image/fishing boat/image-maaskant-shipyards-82596.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title card-cat">SAILING YACHT</h3>
+                            <h5 class="card-title">PERLE NOIRE</h5>
+                            <p class="card-text">Amels | $ 56.3m | 12 guests</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="../image/sailboats/20170225_105122.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title card-cat">SAIL BOATS</h3>
+                            <h5 class="card-title">MISS SILVER</h5>
+                            <p class="card-text">Amels | $ 49.3m | 12 guests</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="../image/Superyacht/Avanguardia-Lazzarini-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title card-cat">SUPER YACHT</h3>
+                            <h5 class="card-title">AUDE II</h5>
+                            <p class="card-text">Amels | $ 39.3m | 12 guests</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="../image/sailboats/7543549_20200825125520451_1_XLARGE.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title card-cat">SAILING YACHT</h3>
+                            <h5 class="card-title">SAGE</h5>
+                            <p class="card-text">Amels | $ 65.3m | 12 guests</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="../image/sailboats/Sea-Eagle-II-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title card-cat">SAIL BOATS</h3>
+                            <h5 class="card-title">GC-FORCE 66</h5>
+                            <p class="card-text">Amels | $ 85.3m | 12 guests</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <P><button type="button" class="btn">See more</button></P>
+        </div>
+        <div class="News">
+            <h1 class="title"> News </h1>
+            <div class="all">
+                <div class="aa">
+                    <img class="ml-3" src="../image/Superyacht/ZHA_B_V_Birdseye_view_128m.jpg" alt="" width="300px"
+                        height="150px">
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Media object</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                        purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                        fringilla. Donec
+                        lacinia congue felis in faucibus. <a class="bb">see more</a>
+                    </div>
+                    <img class="ml-3" src="../image/Superyacht/ZHA_B_V_Birdseye_view_128m.jpg" alt="" width="300px"
+                        height="150px">
+                </div>
+                <div class="aa">
+                    <img class="ml-3" src="../image/explorer yacht/Extended-Explorer-external-1.webp" alt=""
+                        width="300px" height="150px">
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Media object</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                        purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
+                        fringilla. Donec
+                        lacinia congue felis in faucibus.<a class="bb">see more<a>
+                    </div>
+                    <img class="ml-3" src="../image/explorer yacht/Extended-Explorer-external-1.webp" alt=""
+                        width="300px" height="150px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="title">Our Team</h1>
+    
+    <div class="container-fluid">
+        <div class="our-team-banner">
+            <img src="../image/Background.png" alt="">
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xs-12 our-team">
+                <div class="card card-one">
+                    <img class="card-img-top" src="../image/VA.png" alt="Card image cap" style="border-radius: 50%;">
+                    <div class="card-body">
+                        <h3 class="card-title">Viet Anh TRAN</h3>
+                        <h6 class="card-title">Chief Financial Officer</h6>
+                        <p class="card-text">- Advising, the Board of Directors on communication, brand identity and
+                            development.</p>
+                        <p class="card-text">- Establish and maintain relationships with partners, media agencies, and
+                            relevant
+                            service providers for the company's marketing activities.</p>
+                        <p class="card-text">- Training and training of marketing staff under their respective
+                            responsibilities.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 our-team">
+                <div class="card">
+                    <img class="card-img-top" src="../image/dat.png" alt="Card image cap" style="border-radius: 50%;">
+                    <div class="card-body">
+                        <h3 class="card-title">Tien Dat PHAM</h3>
+                        <h6 class="card-title">CEO</h6>
+                        <p class="card-text">- Chairman/CEO Apple Company.</p>
+                        <p class="card-text">- President Vinfast.</p>
+                        <p class="card-text">- Co-founder Samsung.</p>
+                        <p class="card-text">- Develop tools to measure the effectiveness of Marketing activities.</p>
+                        <p class="card-text">- 20 years experience shoot the breeze.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 our-team">
+                <div class="card">
+                    <img class="card-img-top" src="../image/Duy.png" alt="Card image cap" style="border-radius: 50%;">
+                    <div class="card-body">
+                        <h3 class="card-title">Van Duy DO</h3>
+                        <h6 class="card-title">Chief Marketing Officer</h6>
+                        <p class="card-text">- 20 years experience in marketing</p>
+                        <p class="card-text">- Planning strategies, plans, solutions and organizing the implementation of
+                            the
+                            company's Marketing activities.</p>
+                        <p class="card-text">- Organize the implementation of market research programs and activities.</p>
+                        <p class="card-text">- Professional journalist.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="row m-auto" style="
+        padding-top: 120px;
+        padding-bottom: 20px;">
+            <div class="col-md-6 col-lg-4">
+                <div class="row m-auto">
+                    <div class="col-md-8">
+                        <p class="font-weight-bold">CUSTOMER SERVICE</p>
+                        <ul>
+                            <li><a href="">Phone:+866.5972742</a></li>
+                            <li><a href="mailto:marinafleet@gmail.com" target="_blank">marinafleet@gmail.com</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Temp & Condition</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <p class="font-weight-bold">COMPANY</p>
+                        <ul>
+                            <li><a href="">What We Do</a></li>
+                            <li><a href="">Available Service</a></li>
+                            <li><a href="">Latest Posts</a></li>
+                            <li><a href="">FAQs</a></li>
+                            <li><a href="sitemap.html">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <p class="font-weight-bold">OUR NEWSLETTERS</p>
+                <span>Join our list and get 15% off your first purchase!</span>
+                <br>
+                <input type="email" class="form-control" name="emailaddress" id="emailaddress"
+                    placeholder="Email Address">
+                <br>
+                <span>*Don't worry we don't spam</span>
+            </div>
+            <div class="col-md-6 col-lg-4" id="map"></div>
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+                async></script>
+        </div>
+        <div class="row under">
+            <div class="col-md-6 col-lg-4 list-inline">
+                <p class="list-inline-item">Return Policy</p>
+                <p class="list-inline-item">Privacy Policy</p>
+                <p class="list-inline-item">Privacy Policy</p>
+            </div>
+            <div class="col-md-6 col-lg-4 offset-md-4">
+                <ul class="contact list-inline text-right">
+                    <li class=" list-inline-item"><a href="" class="kz-twitter"></a></li>
+                    <li class=" list-inline-item"><a href="" class="kz-facebook"></a></li>
+                    <li class=" list-inline-item"><a href="" class="kz-instagram"></a></li>
+                    <li class=" list-inline-item"><a href="" class="kz-pinterest"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../bootstrap/js/bootstrap.js"></script>
+<script src="../js/map.js"></script>
+
+</html>

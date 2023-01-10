@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../sliderengine/jquery.js"></script>
+    <script src="../sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="../sliderengine/amazingslider-1.css">
+    <script src="../sliderengine/initslider-1.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="home.html"><img src="../image/logo_du_thuyen.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="category.html">CATEGORY</a>
+                    <div class="menu">
+                        <div class="menu-1">
+                            <div class="menu-2">
+                                <ul>
+                                    <li class="menu-item">
+                                        <a href="boat.html">BOAT</a>
+                                        <ul>
+                                            <li>Air Boat</li>
+                                            <li>Fishing Boat</li>
+                                            <li>Jet Boat</li>
+                                            <li>Sailboats</li>
+                                            <li>Personal Watercraft</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="menu-item">
+                                        <a href="yacht.html">YACHT</a>
+                                        <ul>
+                                            <li><a href="superyacht.html">Super Yacht</a></li>
+                                            <li><a href="#">Explorer Yacht</a></li>
+                                            <li><a href="#">Racing Yacht</a></li>
+                                            <li><a href="#">Sailing Yacht</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NEWS</a>
+                </li>
+            </ul>
+            <div class="search-box">
+                <div class="input-box">
+                    <input type="text" placeholder="Search here">
+                </div>
+                <div class="button-box">
+                    <img src="../image/search.png" alt="">
+                </div>
+                <script>
+                    $('.search-box .input-box input').focus(
+                        () => {
+                            $('.search-box .input-box').addClass('active')
+                        }
+                    );
+                    $('.search-box .input-box input').blur(
+                        () => {
+                            $('.search-box .input-box').removeClass('active');
+                        }
+                    );
+                </script>
+            </div>
+            <a class="navbar-brand" href="login.html">
+                <i class="fas fa-user-circle"></i>
+            </a>
+            <a class="navbar-brand" href="cart.html">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+        </div>
+    </nav>
+    
+    <div class="body">
+        <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:900px;margin:0px auto 98px;">
+            <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+                <ul class="amazingslider-slides" style="display:none;">
+                    <li><img src="../images/1024px-Azzam_bei_L%C3%BCrssen.jpg" alt="1024px-Azzam_bei_Lürssen"  title="1024px-Azzam_bei_Lürssen" />
+                    </li>
+                    <li><img src="../images/3610_05724.jpg" alt="3610_05724"  title="3610_05724" />
+                    </li>
+                    <li><img src="../images/200924134620-upcoming-superyacht---avanguardia--full-169.jpg" alt="200924134620-upcoming-superyacht---avanguardia--full-169"  title="200924134620-upcoming-superyacht---avanguardia--full-169" />
+                    </li>
+                    <li><img src="../images/Avanguardia-Lazzarini-1.jpg" alt="Avanguardia-Lazzarini-1"  title="Avanguardia-Lazzarini-1" />
+                    </li>
+                    <li><img src="../images/cc97118ff020fe23e6351dc9dd257057.png" alt="cc97118ff020fe23e6351dc9dd257057"  title="cc97118ff020fe23e6351dc9dd257057" />
+                    </li>
+                    <li><img src="../images/https___specials-images.forbesimg.com_imageserve_5f411b2b58755f335e00d0d9_0x0.jpg" alt="https___specials-images.forbesimg.com_imageserve_5f411b2b58755f335e00d0d9_0x0"  title="https___specials-images.forbesimg.com_imageserve_5f411b2b58755f335e00d0d9_0x0" />
+                    </li>
+                    <li><img src="../images/kairos-render.jpg" alt="kairos-render"  title="kairos-render" />
+                    </li>
+                    <li><img src="../images/NK85_WD_Pressemeldung.jpg" alt="NK85_WD_Pressemeldung"  title="NK85_WD_Pressemeldung" />
+                    </li>
+                    <li><img src="../images/ZHA_B_V_Birdseye_view_128m.jpg" alt="ZHA_B_V_Birdseye_view_128m"  title="ZHA_B_V_Birdseye_view_128m" />
+                    </li>
+                </ul>
+                <ul class="amazingslider-thumbnails" style="display:none;">
+                    <li><img src="../images/1024px-Azzam_bei_L%C3%BCrssen-tn.jpg" alt="1024px-Azzam_bei_Lürssen" title="1024px-Azzam_bei_Lürssen" /></li>
+                    <li><img src="../images/3610_05724-tn.jpg" alt="3610_05724" title="3610_05724" /></li>
+                    <li><img src="../images/200924134620-upcoming-superyacht---avanguardia--full-169-tn.jpg" alt="200924134620-upcoming-superyacht---avanguardia--full-169" title="200924134620-upcoming-superyacht---avanguardia--full-169" /></li>
+                    <li><img src="../images/Avanguardia-Lazzarini-1-tn.jpg" alt="Avanguardia-Lazzarini-1" title="Avanguardia-Lazzarini-1" /></li>
+                    <li><img src="../images/cc97118ff020fe23e6351dc9dd257057-tn.png" alt="cc97118ff020fe23e6351dc9dd257057" title="cc97118ff020fe23e6351dc9dd257057" /></li>
+                    <li><img src="../images/https___specials-images.forbesimg.com_imageserve_5f411b2b58755f335e00d0d9_0x0-tn.jpg" alt="https___specials-images.forbesimg.com_imageserve_5f411b2b58755f335e00d0d9_0x0" title="https___specials-images.forbesimg.com_imageserve_5f411b2b58755f335e00d0d9_0x0" /></li>
+                    <li><img src="../images/kairos-render-tn.jpg" alt="kairos-render" title="kairos-render" /></li>
+                    <li><img src="../images/NK85_WD_Pressemeldung-tn.jpg" alt="NK85_WD_Pressemeldung" title="NK85_WD_Pressemeldung" /></li>
+                    <li><img src="../images/ZHA_B_V_Birdseye_view_128m-tn.jpg" alt="ZHA_B_V_Birdseye_view_128m" title="ZHA_B_V_Birdseye_view_128m" /></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row row--boxed page display-row">
+            <div class="col column column--content">
+                <div class="row row--wide">
+                    <div class="stats">
+                        <div class="stats__heading"><span class=""><a href="/profiles/amels--17241" title=""
+                                    gtm-data-id="">Amels </a></span><span class="">| $29,900,000 |</span><span
+                                class="">49.3 m |</span><span class="">2004</span>
+                            <a href="../description/description.pdf" download="fulldescr" target="blank"><i
+                                    class="fas fa-download"></i></a>
+                        </div>
+                    </div>
+                    <div class="row row--full-width display-row display-row">
+                        <div class="col column column--half">
+                            <div class="stats">
+                                <div class="stats__wrapper">
+                                    <div class="stats__block">
+                                        <div class="stats__text">
+                                            <div class="stats__title ">TOP SPEED</div>
+                                            <div class="stats__value ">14 kn</div>
+                                        </div>
+                                    </div>
+                                    <div class="stats__block">
+                                        <div class="stats__text">
+                                            <div class="stats__title ">RANGE</div>
+                                            <div class="stats__value ">4000 nm</div>
+                                        </div>
+                                    </div>
+                                    <div class="stats__block">
+                                        <div class="stats__text">
+                                            <div class="stats__title ">GUESTS</div>
+                                            <div class="stats__value ">12</div>
+                                        </div>
+                                    </div>
+                                    <div class="stats__block">
+                                        <div class="stats__text">
+                                            <div class="stats__title ">CREW</div>
+                                            <div class="stats__value ">12</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col column column--half">
+                            <div class="stats">
+                                <div class="stats__wrapper">
+                                    <div class="stats__block">
+                                        <div class="stats__text">
+                                            <div class="stats__title ">CRUISING SPEED</div>
+                                            <div class="stats__value ">12 kn</div>
+                                        </div>
+                                    </div>
+                                    <div class="stats__block">
+                                        <div class="stats__text">
+                                            <div class="stats__title ">DISPLACEMENT</div>
+                                            <div class="stats__value ">590 t</div>
+                                        </div>
+                                    </div>
+                                    <div class="stats__block">
+                                        <div class="stats__text">
+                                            <div class="stats__title ">BEAM</div>
+                                            <div class="stats__value ">9.25 m</div>
+                                        </div>
+                                    </div>
+                                    <div class="stats__block">
+                                        <div class="stats__text">
+                                            <div class="stats__title ">GUEST CABIN</div>
+                                            <div class="stats__value ">5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row--wide">
+                    <div class="page-content ">
+                        <p>Custom built by Amels with interior and exterior design by Donald Starkey. Interior build by
+                            Metrica. The spacious master stateroom has its own private interior lounge and exterior
+                            seating via private entrance. Tenders are stowed on bridge deck mid- ship out of the way
+                            from guest spaces. New main engines installed in 2018. Her full displacement hull is
+                            extremely comfortable and quiet underway.</p>
+                    </div>
+                    <div class="image "><span style="font-size: 0px;"></span>
+                        <div class="image__wrapper">
+                            <picture>
+
+                                <img src="https://cdn.boatinternational.com/files/2021/04/11057590-97b4-11eb-aa89-f794518a5088-VIBRANCE-Superyacht-for-sale-charter-49.jpg"
+                                    alt="" data-testid="responsive-image" role="button">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row--wide">
+                    <div data-testid="contact-small" class="contact contact--small"><button
+                            class="icon-button icon-button--cta" type="button" id="callButton" icon="fas fa-phone"><i
+                                class="fas fa-phone"></i></button><button class="icon-button icon-button--cta"
+                            type="button" id="messageButton" icon="fas fa-at"><i class="fas fa-at"></i></button>
+                        <p>Contact the broker for more information</p>
+                    </div>
+                </div>
+                <div class="row row--wide">
+                    <div class="page-content heading--stats">
+                        <h3>Specifications</h3>
+                    </div>
+                </div>
+                <div class="row row--wide display-row display-row">
+                    <div class="column column--content">
+                        <div class="spec-block">
+                            <h2 class="heading heading--section">Overview</h2>
+                            <div class="spec-block__column">
+                                <ul class="spec-block__list">
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Name:</span><span
+                                            class="spec-block__data ">VIBRANCE</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Yacht
+                                            Type:</span><span class="spec-block__data ">Motor Yacht</span></li>
+                                    <li class="spec-block__list-item"><span
+                                            class="spec-block__title ">Builder:</span><span class="spec-block__data "><a
+                                                href="/profiles/amels--17241" title="" gtm-data-id="">Amels </a></span>
+                                    </li>
+                                    <li class="spec-block__list-item"><span
+                                            class="spec-block__title ">Refits:</span><span
+                                            class="spec-block__data ">2019-01-01</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="spec-block">
+                            <h2 class="heading heading--section">Dimensions</h2>
+                            <div class="spec-block__column">
+                                <ul class="spec-block__list">
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Length
+                                            Overall:</span><span class="spec-block__data ">49.3 metres</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Length at
+                                            Waterline:</span><span class="spec-block__data ">43.22 metres</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Beam:</span><span
+                                            class="spec-block__data ">9.25 metres</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Max
+                                            Draught:</span><span class="spec-block__data ">3.3 metres</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Gross
+                                            Tonnage:</span><span class="spec-block__data ">659</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Displacement
+                                            Tonnage:</span><span class="spec-block__data ">590</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="spec-block">
+                            <h2 class="heading heading--section">Construction</h2>
+                            <div class="spec-block__column">
+                                <ul class="spec-block__list">
+                                    <li class="spec-block__list-item"><span
+                                            class="spec-block__title ">Builder:</span><span class="spec-block__data "><a
+                                                href="/profiles/amels--17241" title="" gtm-data-id="">Amels </a></span>
+                                    </li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Year of
+                                            Build:</span><span class="spec-block__data ">2004</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Hull
+                                            Number:</span><span class="spec-block__data ">445</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Hull
+                                            Type:</span><span class="spec-block__data ">Full Displacement</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Number of
+                                            Decks:</span><span class="spec-block__data ">3</span></li>
+                                    <li class="spec-block__list-item"><span
+                                            class="spec-block__title ">Classification:</span><span
+                                            class="spec-block__data ">LR</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">MCA
+                                            Compliant:</span><span class="spec-block__data ">true</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="spec-block">
+                            <h2 class="heading heading--section">Performance &amp; Capacities</h2>
+                            <div class="spec-block__column">
+                                <ul class="spec-block__list">
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Max
+                                            Speed:</span><span class="spec-block__data ">14 kn</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Cruising
+                                            Speed:</span><span class="spec-block__data ">12 kn</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Fuel
+                                            Capacity:</span><span class="spec-block__data ">93200 litres</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Water
+                                            Capacity:</span><span class="spec-block__data ">21200 litres</span></li>
+                                    <li class="spec-block__list-item"><span
+                                            class="spec-block__title ">Range:</span><span class="spec-block__data ">4000
+                                            nm</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title "></span><span
+                                            class="spec-block__data ">@ 12 kn</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="spec-block">
+                            <h2 class="heading heading--section">Engines</h2>
+                            <div class="spec-block__column">
+                                <ul class="spec-block__list">
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Engine
+                                            Make:</span><span class="spec-block__data ">MTU </span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Total
+                                            power:</span><span class="spec-block__data ">2114hp </span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="spec-block">
+                            <h2 class="heading heading--section">Materials</h2>
+                            <div class="spec-block__column">
+                                <ul class="spec-block__list">
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Hull:</span><span
+                                            class="spec-block__data ">Steel</span></li>
+                                    <li class="spec-block__list-item"><span
+                                            class="spec-block__title ">Superstructure:</span><span
+                                            class="spec-block__data ">Aluminium</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Deck:</span><span
+                                            class="spec-block__data ">Teak</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="spec-block">
+                            <h2 class="heading heading--section">Accommodation</h2>
+                            <div class="spec-block__column">
+                                <ul class="spec-block__list">
+                                    <li class="spec-block__list-item"><span
+                                            class="spec-block__title ">Guests:</span><span
+                                            class="spec-block__data ">12</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Passenger
+                                            Rooms:</span><span class="spec-block__data ">5</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Master
+                                            Rooms:</span><span class="spec-block__data ">1</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Double Rooms:
+                                        </span><span class="spec-block__data ">2</span></li>
+                                    <li class="spec-block__list-item"><span class="spec-block__title ">Twin
+                                            Rooms:</span><span class="spec-block__data ">2</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row--wide">
+                    <div class="spec-block">
+                        <div class="spec-block__column">
+                            <ul class="spec-block__list">
+                                <li class="spec-block__list-item"><span class="spec-block__title ">For sale to U.S.
+                                        Residents while in U.S. Waters:</span><span
+                                        class="spec-block__data ">true</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="final-button">
+                    <button type="button" class="btn">
+                        BUY
+                    </button>
+                    <button type="button" class="btn">
+                        RENT
+                    </button>
+                </div>
+            </div>
+            <div class="col column column--sidebar">
+                <div class="row row--wide">
+                    <div data-testid="contact-big" class="contact contact--big">
+                        <div class="contact__wrapper contact__wrapper--big">
+                            <div class="contact__company contact__company--form">
+                                <div class="contact__column contact__column--name">
+                                    <h2 class="contact__heading contact__heading--big">Josh Gulbranson</h2><a
+                                        href="/yachts/luxury-yacht-broker-directory/fraser--2119" title="">All
+                                        yachts</a>
+                                </div><a href="https://www.fraseryachts.com"
+                                    class="contact__column contact__column--logo"><img
+                                        src="https://cdn.boatinternational.com/images/hub/profile_images/000/001/965/Fraser-Logo-HR.JPG"></a>
+                            </div><button class="button button--cta button--icon button--full-width" type="button"
+                                id="callButton" icon="fas fa-phone"><i class="fas fa-phone"></i>Call
+                                broker</button><button class="button button--cta button--icon button--full-width"
+                                type="button" id="messageButton" icon="fas fa-at"><i class="fas fa-at"></i>Message
+                                broker</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row--wide">
+                    <div class="banner ">
+                        <div class="adunitContainer">
+                            <div class="adBox" id="adSlot-1" style="display: none;">
+                                <div id="google_ads_iframe_8051/boatinternational/yachtsforsale/mpu_0__container__"
+                                    style="border: 0pt none; width: 300px; height: 250px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row--wide yachts-for-sale-sidebar">
+                    <div class="details">
+                        <h2 class="heading heading--section">MORE YACHTS FOR SALE</h2><span class=""><a
+                                href="/yachts/luxury-yacht-broker-directory/fraser--2119" title="" gtm-data-id="">FROM
+                                Fraser </a></span>
+                    </div>
+                    <div class="grid grid-cols-1 grid--one">
+                        <div role="button">
+                            <div class="card card--euclid-card-title card--landscape">
+                                <div class="card__image card__image--euclid-card-title card__image--landscape"><a
+                                        href="/yachts-for-sale/scout-ii--77985" title="card-related yachts for sale"
+                                        class="card__image-link" gtm-data-id="card-related yachts for sale"><span>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="https://cdn.boatinternational.com/convert/images/20200501/1-247029l-2560x1440.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/1-247029l-2560x1440.webp 320w,https://cdn.boatinternational.com/convert/images/20200501/1-247029l-2560x1440.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/1-247029l-2560x1440.webp 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-webp">
+                                                <source
+                                                    srcset="https://cdn.boatinternational.com/convert/images/20200501/1-247029l-2560x1440.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/1-247029l-2560x1440.jpg 320w,https://cdn.boatinternational.com/convert/images/20200501/1-247029l-2560x1440.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/1-247029l-2560x1440.jpg 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-original"><img
+                                                    src="https://cdn.boatinternational.com/images/20200501/1-247029l-2560x1440.jpg"
+                                                    alt="" data-testid="responsive-image">
+                                            </picture>
+                                        </span></a></div>
+                                <div
+                                    class="card__content-wrapper card__content-wrapper--euclid-card-title card__content-wrapper--landscape">
+                                    <div
+                                        class="card__content card__content--euclid-card-title card__content--landscape">
+                                        <h2 class="card__title card__title--euclid-card-title card__title--landscape"><a
+                                                href="/yachts-for-sale/scout-ii--77985"
+                                                title="card-related yachts for sale"
+                                                gtm-data-id="card-related yachts for sale">SCOUT II</a></h2>
+                                        <div
+                                            class="card__details card__details--euclid-card-title card__details--landscape">
+                                            <span class=""> Brooke Marine | &nbsp;</span><span class=""> 39.6 m |
+                                                &nbsp;</span><span class=""> 9 guests | &nbsp;</span><span class=""><b>
+                                                    $9,900,000 </b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="button">
+                            <div class="card card--euclid-card-title card--landscape">
+                                <div class="card__image card__image--euclid-card-title card__image--landscape"><a
+                                        href="/yachts-for-sale/tatoosh-nobiskrug-2000"
+                                        title="card-related yachts for sale" class="card__image-link"
+                                        gtm-data-id="card-related yachts for sale"><span>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/04/85da10f0-9c5b-11eb-a476-a717f5b5fac8-2.%20tatoosh_G1K8579.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/85da10f0-9c5b-11eb-a476-a717f5b5fac8-2.webp 320w,https://cdn.boatinternational.com/convert/files/2021/04/85da10f0-9c5b-11eb-a476-a717f5b5fac8-2.%20tatoosh_G1K8579.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/85da10f0-9c5b-11eb-a476-a717f5b5fac8-2.webp 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-webp">
+                                                <source
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/04/85da10f0-9c5b-11eb-a476-a717f5b5fac8-2.%20tatoosh_G1K8579.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/85da10f0-9c5b-11eb-a476-a717f5b5fac8-2.%20tatoosh_G1K8579.jpg 320w,https://cdn.boatinternational.com/convert/files/2021/04/85da10f0-9c5b-11eb-a476-a717f5b5fac8-2.%20tatoosh_G1K8579.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/85da10f0-9c5b-11eb-a476-a717f5b5fac8-2.%20tatoosh_G1K8579.jpg 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-original"><img
+                                                    src="https://cdn.boatinternational.com/files/2021/04/85da10f0-9c5b-11eb-a476-a717f5b5fac8-2. tatoosh_G1K8579.jpg"
+                                                    alt="" data-testid="responsive-image">
+                                            </picture>
+                                        </span></a></div>
+                                <div
+                                    class="card__content-wrapper card__content-wrapper--euclid-card-title card__content-wrapper--landscape">
+                                    <div
+                                        class="card__content card__content--euclid-card-title card__content--landscape">
+                                        <h2 class="card__title card__title--euclid-card-title card__title--landscape"><a
+                                                href="/yachts-for-sale/tatoosh-nobiskrug-2000"
+                                                title="card-related yachts for sale"
+                                                gtm-data-id="card-related yachts for sale">TATOOSH</a></h2>
+                                        <div
+                                            class="card__details card__details--euclid-card-title card__details--landscape">
+                                            <span class=""> Nobiskrug | &nbsp;</span><span class=""> 92.4 m |
+                                                &nbsp;</span><span class=""> 19 guests | &nbsp;</span><span class=""><b>
+                                                    €90,000,000 </b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="button">
+                            <div class="card card--euclid-card-title card--landscape">
+                                <div class="card__image card__image--euclid-card-title card__image--landscape"><a
+                                        href="/yachts-for-sale/impetuous-moonen-2002"
+                                        title="card-related yachts for sale" class="card__image-link"
+                                        gtm-data-id="card-related yachts for sale"><span>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/04/c97319b0-9b98-11eb-8552-8f7fd55a63cc-profil-picture.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/c97319b0-9b98-11eb-8552-8f7fd55a63cc-profil-picture.webp 320w,https://cdn.boatinternational.com/convert/files/2021/04/c97319b0-9b98-11eb-8552-8f7fd55a63cc-profil-picture.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/c97319b0-9b98-11eb-8552-8f7fd55a63cc-profil-picture.webp 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-webp">
+                                                <source
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/04/c97319b0-9b98-11eb-8552-8f7fd55a63cc-profil-picture.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/c97319b0-9b98-11eb-8552-8f7fd55a63cc-profil-picture.jpg 320w,https://cdn.boatinternational.com/convert/files/2021/04/c97319b0-9b98-11eb-8552-8f7fd55a63cc-profil-picture.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/c97319b0-9b98-11eb-8552-8f7fd55a63cc-profil-picture.jpg 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-original"><img
+                                                    src="https://cdn.boatinternational.com/files/2021/04/c97319b0-9b98-11eb-8552-8f7fd55a63cc-profil-picture.jpg"
+                                                    alt="" data-testid="responsive-image">
+                                            </picture>
+                                        </span></a></div>
+                                <div
+                                    class="card__content-wrapper card__content-wrapper--euclid-card-title card__content-wrapper--landscape">
+                                    <div
+                                        class="card__content card__content--euclid-card-title card__content--landscape">
+                                        <h2 class="card__title card__title--euclid-card-title card__title--landscape"><a
+                                                href="/yachts-for-sale/impetuous-moonen-2002"
+                                                title="card-related yachts for sale"
+                                                gtm-data-id="card-related yachts for sale">IMPETUOUS</a></h2>
+                                        <div
+                                            class="card__details card__details--euclid-card-title card__details--landscape">
+                                            <span class=""> Burger Boat | &nbsp;</span><span class=""> 27.3 m |
+                                                &nbsp;</span><span class=""> 8 guests | &nbsp;</span><span class=""><b>
+                                                    €2,900,000 </b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="button">
+                            <div class="card card--euclid-card-title card--landscape">
+                                <div class="card__image card__image--euclid-card-title card__image--landscape"><a
+                                        href="/yachts-for-sale/t-zero-burger-2007" title="card-related yachts for sale"
+                                        class="card__image-link" gtm-data-id="card-related yachts for sale"><span>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2020/10/9fe558c0-0498-11eb-81ec-95ecf982ee85-T-ZERO-yacht-For-sale-charter-01.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/9fe558c0-0498-11eb-81ec-95ecf982ee85-T-ZERO-yacht-For-sale-charter-01.webp 320w,https://cdn.boatinternational.com/convert/files/2020/10/9fe558c0-0498-11eb-81ec-95ecf982ee85-T-ZERO-yacht-For-sale-charter-01.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/9fe558c0-0498-11eb-81ec-95ecf982ee85-T-ZERO-yacht-For-sale-charter-01.webp 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-webp">
+                                                <source
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2020/10/9fe558c0-0498-11eb-81ec-95ecf982ee85-T-ZERO-yacht-For-sale-charter-01.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/9fe558c0-0498-11eb-81ec-95ecf982ee85-T-ZERO-yacht-For-sale-charter-01.jpg 320w,https://cdn.boatinternational.com/convert/files/2020/10/9fe558c0-0498-11eb-81ec-95ecf982ee85-T-ZERO-yacht-For-sale-charter-01.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/9fe558c0-0498-11eb-81ec-95ecf982ee85-T-ZERO-yacht-For-sale-charter-01.jpg 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-original"><img
+                                                    src="https://cdn.boatinternational.com/files/2020/10/9fe558c0-0498-11eb-81ec-95ecf982ee85-T-ZERO-yacht-For-sale-charter-01.jpg"
+                                                    alt="" data-testid="responsive-image">
+                                            </picture>
+                                        </span></a></div>
+                                <div
+                                    class="card__content-wrapper card__content-wrapper--euclid-card-title card__content-wrapper--landscape">
+                                    <div
+                                        class="card__content card__content--euclid-card-title card__content--landscape">
+                                        <h2 class="card__title card__title--euclid-card-title card__title--landscape"><a
+                                                href="/yachts-for-sale/t-zero-burger-2007"
+                                                title="card-related yachts for sale"
+                                                gtm-data-id="card-related yachts for sale">T-ZERO</a></h2>
+                                        <div
+                                            class="card__details card__details--euclid-card-title card__details--landscape">
+                                            <span class=""> Burger Boat | &nbsp;</span><span class=""> 38.4 m |
+                                                &nbsp;</span><span class=""> 10 guests | &nbsp;</span><span class=""><b>
+                                                    $11,300,000 </b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="button">
+                            <div class="card card--euclid-card-title card--landscape">
+                                <div class="card__image card__image--euclid-card-title card__image--landscape"><a
+                                        href="/yachts-for-sale/felix-jadewerft-1968"
+                                        title="card-related yachts for sale" class="card__image-link"
+                                        gtm-data-id="card-related yachts for sale"><span>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/04/67c387a0-92dc-11eb-9117-3198410a49c8-FELIX-yacht-for-sale.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/67c387a0-92dc-11eb-9117-3198410a49c8-FELIX-yacht-for-sale.webp 320w,https://cdn.boatinternational.com/convert/files/2021/04/67c387a0-92dc-11eb-9117-3198410a49c8-FELIX-yacht-for-sale.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/67c387a0-92dc-11eb-9117-3198410a49c8-FELIX-yacht-for-sale.webp 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-webp">
+                                                <source
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/04/67c387a0-92dc-11eb-9117-3198410a49c8-FELIX-yacht-for-sale.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/67c387a0-92dc-11eb-9117-3198410a49c8-FELIX-yacht-for-sale.jpg 320w,https://cdn.boatinternational.com/convert/files/2021/04/67c387a0-92dc-11eb-9117-3198410a49c8-FELIX-yacht-for-sale.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/67c387a0-92dc-11eb-9117-3198410a49c8-FELIX-yacht-for-sale.jpg 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-original"><img
+                                                    src="https://cdn.boatinternational.com/files/2021/04/67c387a0-92dc-11eb-9117-3198410a49c8-FELIX-yacht-for-sale.jpg"
+                                                    alt="" data-testid="responsive-image">
+                                            </picture>
+                                        </span></a></div>
+                                <div
+                                    class="card__content-wrapper card__content-wrapper--euclid-card-title card__content-wrapper--landscape">
+                                    <div
+                                        class="card__content card__content--euclid-card-title card__content--landscape">
+                                        <h2 class="card__title card__title--euclid-card-title card__title--landscape"><a
+                                                href="/yachts-for-sale/felix-jadewerft-1968"
+                                                title="card-related yachts for sale"
+                                                gtm-data-id="card-related yachts for sale">FELIX</a></h2>
+                                        <div
+                                            class="card__details card__details--euclid-card-title card__details--landscape">
+                                            <span class=""> Jadewerft | &nbsp;</span><span class=""> 70 m |
+                                                &nbsp;</span><span class=""> 14 guests | &nbsp;</span><span class=""><b>
+                                                    €38,500,000 </b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="button">
+                            <div class="card card--euclid-card-title card--landscape">
+                                <div class="card__image card__image--euclid-card-title card__image--landscape"><a
+                                        href="/yachts-for-sale/criss-c-christensen-1993"
+                                        title="card-related yachts for sale" class="card__image-link"
+                                        gtm-data-id="card-related yachts for sale"><span>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/04/c0ef8af0-9911-11eb-8614-23ccafd572f1-Criss-C.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/c0ef8af0-9911-11eb-8614-23ccafd572f1-Criss-C.webp 320w,https://cdn.boatinternational.com/convert/files/2021/04/c0ef8af0-9911-11eb-8614-23ccafd572f1-Criss-C.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/c0ef8af0-9911-11eb-8614-23ccafd572f1-Criss-C.webp 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-webp">
+                                                <source
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/04/c0ef8af0-9911-11eb-8614-23ccafd572f1-Criss-C.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/c0ef8af0-9911-11eb-8614-23ccafd572f1-Criss-C.jpg 320w,https://cdn.boatinternational.com/convert/files/2021/04/c0ef8af0-9911-11eb-8614-23ccafd572f1-Criss-C.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/c0ef8af0-9911-11eb-8614-23ccafd572f1-Criss-C.jpg 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-original"><img
+                                                    src="https://cdn.boatinternational.com/files/2021/04/c0ef8af0-9911-11eb-8614-23ccafd572f1-Criss-C.jpg"
+                                                    alt="" data-testid="responsive-image">
+                                            </picture>
+                                        </span></a></div>
+                                <div
+                                    class="card__content-wrapper card__content-wrapper--euclid-card-title card__content-wrapper--landscape">
+                                    <div
+                                        class="card__content card__content--euclid-card-title card__content--landscape">
+                                        <h2 class="card__title card__title--euclid-card-title card__title--landscape"><a
+                                                href="/yachts-for-sale/criss-c-christensen-1993"
+                                                title="card-related yachts for sale"
+                                                gtm-data-id="card-related yachts for sale">CRISS C</a></h2>
+                                        <div
+                                            class="card__details card__details--euclid-card-title card__details--landscape">
+                                            <span class=""> Christensen | &nbsp;</span><span class=""> 34.29 m |
+                                                &nbsp;</span><span class=""> 10 guests | &nbsp;</span><span class=""><b>
+                                                    €1,650,000 </b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="button">
+                            <div class="card card--euclid-card-title card--landscape">
+                                <div class="card__image card__image--euclid-card-title card__image--landscape"><a
+                                        href="/yachts-for-sale/cloud-atlas-lloyds-1990"
+                                        title="card-related yachts for sale" class="card__image-link"
+                                        gtm-data-id="card-related yachts for sale"><span>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/04/98ddffe0-9855-11eb-ae2f-2faa3e94b746-CLOUD-ATLAS-Superyacht-for-sale-charter-01.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/98ddffe0-9855-11eb-ae2f-2faa3e94b746-CLOUD-ATLAS-Superyacht-for-sale-charter-01.webp 320w,https://cdn.boatinternational.com/convert/files/2021/04/98ddffe0-9855-11eb-ae2f-2faa3e94b746-CLOUD-ATLAS-Superyacht-for-sale-charter-01.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/98ddffe0-9855-11eb-ae2f-2faa3e94b746-CLOUD-ATLAS-Superyacht-for-sale-charter-01.webp 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-webp">
+                                                <source
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/04/98ddffe0-9855-11eb-ae2f-2faa3e94b746-CLOUD-ATLAS-Superyacht-for-sale-charter-01.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/98ddffe0-9855-11eb-ae2f-2faa3e94b746-CLOUD-ATLAS-Superyacht-for-sale-charter-01.jpg 320w,https://cdn.boatinternational.com/convert/files/2021/04/98ddffe0-9855-11eb-ae2f-2faa3e94b746-CLOUD-ATLAS-Superyacht-for-sale-charter-01.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/98ddffe0-9855-11eb-ae2f-2faa3e94b746-CLOUD-ATLAS-Superyacht-for-sale-charter-01.jpg 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-original"><img
+                                                    src="https://cdn.boatinternational.com/files/2021/04/98ddffe0-9855-11eb-ae2f-2faa3e94b746-CLOUD-ATLAS-Superyacht-for-sale-charter-01.jpg"
+                                                    alt="" data-testid="responsive-image">
+                                            </picture>
+                                        </span></a></div>
+                                <div
+                                    class="card__content-wrapper card__content-wrapper--euclid-card-title card__content-wrapper--landscape">
+                                    <div
+                                        class="card__content card__content--euclid-card-title card__content--landscape">
+                                        <h2 class="card__title card__title--euclid-card-title card__title--landscape"><a
+                                                href="/yachts-for-sale/cloud-atlas-lloyds-1990"
+                                                title="card-related yachts for sale"
+                                                gtm-data-id="card-related yachts for sale">CLOUD ATLAS</a></h2>
+                                        <div
+                                            class="card__details card__details--euclid-card-title card__details--landscape">
+                                            <span class=""> Lloyds | &nbsp;</span><span class=""> 46 m |
+                                                &nbsp;</span><span class=""> 12 guests | &nbsp;</span><span class=""><b>
+                                                    €7,900,000 </b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="button">
+                            <div class="card card--euclid-card-title card--landscape">
+                                <div class="card__image card__image--euclid-card-title card__image--landscape"><a
+                                        href="/yachts-for-sale/miss-silver-alloy-1995"
+                                        title="card-related yachts for sale" class="card__image-link"
+                                        gtm-data-id="card-related yachts for sale"><span>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/04/83089fb0-96f0-11eb-8248-6f357200a581-MISS-SILVER-Superyacht-for-sale-charter-01.jpeg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/83089fb0-96f0-11eb-8248-6f357200a581-MISS-SILVER-Superyacht-for-sale-charter-01.webp 320w,https://cdn.boatinternational.com/convert/files/2021/04/83089fb0-96f0-11eb-8248-6f357200a581-MISS-SILVER-Superyacht-for-sale-charter-01.jpeg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/83089fb0-96f0-11eb-8248-6f357200a581-MISS-SILVER-Superyacht-for-sale-charter-01.webp 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-webp">
+                                                <source
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/04/83089fb0-96f0-11eb-8248-6f357200a581-MISS-SILVER-Superyacht-for-sale-charter-01.jpeg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/83089fb0-96f0-11eb-8248-6f357200a581-MISS-SILVER-Superyacht-for-sale-charter-01.jpeg 320w,https://cdn.boatinternational.com/convert/files/2021/04/83089fb0-96f0-11eb-8248-6f357200a581-MISS-SILVER-Superyacht-for-sale-charter-01.jpeg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/83089fb0-96f0-11eb-8248-6f357200a581-MISS-SILVER-Superyacht-for-sale-charter-01.jpeg 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-original"><img
+                                                    src="https://cdn.boatinternational.com/files/2021/04/83089fb0-96f0-11eb-8248-6f357200a581-MISS-SILVER-Superyacht-for-sale-charter-01.jpeg"
+                                                    alt="" data-testid="responsive-image">
+                                            </picture>
+                                        </span></a></div>
+                                <div
+                                    class="card__content-wrapper card__content-wrapper--euclid-card-title card__content-wrapper--landscape">
+                                    <div
+                                        class="card__content card__content--euclid-card-title card__content--landscape">
+                                        <h2 class="card__title card__title--euclid-card-title card__title--landscape"><a
+                                                href="/yachts-for-sale/miss-silver-alloy-1995"
+                                                title="card-related yachts for sale"
+                                                gtm-data-id="card-related yachts for sale">MISS SILVER</a></h2>
+                                        <div
+                                            class="card__details card__details--euclid-card-title card__details--landscape">
+                                            <span class=""> Alloy Yachts | &nbsp;</span><span class=""> 36.12 m |
+                                                &nbsp;</span><span class=""> 8 guests | &nbsp;</span><span class=""><b>
+                                                    €5,950,000 </b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="button">
+                            <div class="card card--euclid-card-title card--landscape">
+                                <div class="card__image card__image--euclid-card-title card__image--landscape"><a
+                                        href="/yachts-for-sale/giava--103307" title="card-related yachts for sale"
+                                        class="card__image-link" gtm-data-id="card-related yachts for sale"><span>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="https://cdn.boatinternational.com/convert/images/20200123/1-237047l-2560x1440.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/1-237047l-2560x1440.webp 320w,https://cdn.boatinternational.com/convert/images/20200123/1-237047l-2560x1440.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/1-237047l-2560x1440.webp 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-webp">
+                                                <source
+                                                    srcset="https://cdn.boatinternational.com/convert/images/20200123/1-237047l-2560x1440.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/1-237047l-2560x1440.jpg 320w,https://cdn.boatinternational.com/convert/images/20200123/1-237047l-2560x1440.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/1-237047l-2560x1440.jpg 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-original"><img
+                                                    src="https://cdn.boatinternational.com/images/20200123/1-237047l-2560x1440.jpg"
+                                                    alt="" data-testid="responsive-image">
+                                            </picture>
+                                        </span></a></div>
+                                <div
+                                    class="card__content-wrapper card__content-wrapper--euclid-card-title card__content-wrapper--landscape">
+                                    <div
+                                        class="card__content card__content--euclid-card-title card__content--landscape">
+                                        <h2 class="card__title card__title--euclid-card-title card__title--landscape"><a
+                                                href="/yachts-for-sale/giava--103307"
+                                                title="card-related yachts for sale"
+                                                gtm-data-id="card-related yachts for sale">GIAVA</a></h2>
+                                        <div
+                                            class="card__details card__details--euclid-card-title card__details--landscape">
+                                            <span class=""> CNT Castagnola | &nbsp;</span><span class=""> 30 m |
+                                                &nbsp;</span><span class=""> 9 guests | &nbsp;</span><span class=""><b>
+                                                    €1,050,000 </b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="button">
+                            <div class="card card--euclid-card-title card--landscape">
+                                <div class="card__image card__image--euclid-card-title card__image--landscape"><a
+                                        href="/yachts-for-sale/virtus-47-mengi-yay-2023"
+                                        title="card-related yachts for sale" class="card__image-link"
+                                        gtm-data-id="card-related yachts for sale"><span>
+                                            <picture>
+                                                <source type="image/webp"
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/03/b9e28bf0-8e4d-11eb-9f60-8db799770640-VIRTUS-47-Superyacht-for-sale-charter-01.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/b9e28bf0-8e4d-11eb-9f60-8db799770640-VIRTUS-47-Superyacht-for-sale-charter-01.webp 320w,https://cdn.boatinternational.com/convert/files/2021/03/b9e28bf0-8e4d-11eb-9f60-8db799770640-VIRTUS-47-Superyacht-for-sale-charter-01.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/b9e28bf0-8e4d-11eb-9f60-8db799770640-VIRTUS-47-Superyacht-for-sale-charter-01.webp 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-webp">
+                                                <source
+                                                    srcset="https://cdn.boatinternational.com/convert/files/2021/03/b9e28bf0-8e4d-11eb-9f60-8db799770640-VIRTUS-47-Superyacht-for-sale-charter-01.jpg/r%5Bwidth%5D=320&amp;r%5Bheight%5D=180/b9e28bf0-8e4d-11eb-9f60-8db799770640-VIRTUS-47-Superyacht-for-sale-charter-01.jpg 320w,https://cdn.boatinternational.com/convert/files/2021/03/b9e28bf0-8e4d-11eb-9f60-8db799770640-VIRTUS-47-Superyacht-for-sale-charter-01.jpg/r%5Bwidth%5D=660&amp;r%5Bheight%5D=371/b9e28bf0-8e4d-11eb-9f60-8db799770640-VIRTUS-47-Superyacht-for-sale-charter-01.jpg 660w"
+                                                    sizes="(max-width: 660px) 50vw, 10vw"
+                                                    data-testid="responsive-image-original"><img
+                                                    src="https://cdn.boatinternational.com/files/2021/03/b9e28bf0-8e4d-11eb-9f60-8db799770640-VIRTUS-47-Superyacht-for-sale-charter-01.jpg"
+                                                    alt="" data-testid="responsive-image">
+                                            </picture>
+                                        </span></a></div>
+                                <div
+                                    class="card__content-wrapper card__content-wrapper--euclid-card-title card__content-wrapper--landscape">
+                                    <div
+                                        class="card__content card__content--euclid-card-title card__content--landscape">
+                                        <h2 class="card__title card__title--euclid-card-title card__title--landscape"><a
+                                                href="/yachts-for-sale/virtus-47-mengi-yay-2023"
+                                                title="card-related yachts for sale"
+                                                gtm-data-id="card-related yachts for sale">VIRTUS 47M #3</a></h2>
+                                        <div
+                                            class="card__details card__details--euclid-card-title card__details--landscape">
+                                            <span class=""> Mengi-Yay | &nbsp;</span><span class=""> 47.3 m |
+                                                &nbsp;</span><span class=""> 10 guests | &nbsp;</span><span class=""><b>
+                                                    €19,900,000 </b></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spec-block">
+                        <div class="spec-block__column">
+                            <ul class="spec-block__list">
+                                <li class="spec-block__list-item"><span class="spec-block__title "></span><span
+                                        class="spec-block__data "><a
+                                            href="/yachts/luxury-yacht-broker-directory/fraser--2119" title=""
+                                            gtm-data-id="" style="color: #000F35;">View all yachts for sale from Fraser </a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row m-auto" style="
+        padding-top: 20px;
+        padding-bottom: 20px;">
+            <div class="col-md-4">
+                <div class="row m-auto">
+                    <div class="col-md-8">
+                        <p class="font-weight-bold">CUSTOMER SERVICE</p>
+                        <ul>
+                            <li><a href="">Phone:+866.5972742</a></li>
+                            <li><a href="mailto:marinafleet@gmail.com" target="_blank">marinafleet@gmail.com</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Temp & Condition</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="font-weight-bold">COMPANY</p>
+                        <ul>
+                            <li><a href="">What We Do</a></li>
+                            <li><a href="">Available Service</a></li>
+                            <li><a href="">Latest Posts</a></li>
+                            <li><a href="">FAQs</a></li>
+                            <li><a href="sitemap.html">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p class="font-weight-bold">OUR NEWSLETTERS</p>
+                <span>Join our list and get 15% off your first purchase!</span>
+                <br>
+                <input type="email" class="form-control" name="emailaddress" id="emailaddress"
+                    placeholder="Email Address">
+                <br>
+                <span>*Don't worry we don't spam</span>
+            </div>
+            <div class="col-md-4" id="map"></div>
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+                async></script>
+        </div>
+        <div class="row under">
+            <div class="col-md-4 list-inline">
+                <p class="list-inline-item">Return Policy</p>
+                <p class="list-inline-item">Privacy Policy</p>
+                <p class="list-inline-item">Privacy Policy</p>
+            </div>
+            <div class="col-md-4 offset-md-4">
+                <ul class="contact list-inline text-right">
+                    <li class=" list-inline-item"><a href="" class="kz-twitter"></a></li>
+                    <li class=" list-inline-item"><a href="" class="kz-facebook"></a></li>
+                    <li class=" list-inline-item"><a href="" class="kz-instagram"></a></li>
+                    <li class=" list-inline-item"><a href="" class="kz-pinterest"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/map.js"></script>
+<script src="https://kit.fontawesome.com/f87f4dddd7.js" crossorigin="anonymous"></script>
+</html>

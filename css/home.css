@@ -1,0 +1,238 @@
+
+@media screen and (max-width: 320px){
+    .carousel-item img{
+        height: 200px;
+    }
+    .col-xs-12 .card img{
+        width: 100%;
+    }
+    .col-xs-12 .card-bot img{
+        width: 100%;
+    }
+    .card-img-overlay h1{
+        font-size: smaller;
+    }
+}
+@media screen and (max-width: 720px){
+    .col-xs-12 .card img{
+        height: 250px;
+    }
+    .col-xs-12 .card-bot img{
+        height: 250px;
+    }
+    .card {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .carousel-item img{
+        height: 400px;
+    }
+    a{
+        font-size: smaller;
+    }
+    .footer .col-md-8{
+        max-width: 60%;
+    }
+}
+@media screen and (max-width: 1024px){
+    
+}
+
+@font-face {
+    font-family: 'kazen-font';
+    src:  url('../fonts/kazen-font.woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+[class^="kz-"], [class*=" kz-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'kazen-font' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.footer{
+    margin-top: 550px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #000F35;
+    border-top: solid #000F35 2px;
+    /* background-color: #000F35; */
+}
+.kz-twitter:before{
+    content: "\e94a";
+}
+.kz-facebook:before{
+    content: "\e94e";
+}
+.kz-instagram:before{
+    content: "\e94d";
+}
+.kz-pinterest:before{
+    content: "\e94b";
+}
+ul li a{
+    margin-right: 10px;
+    color: #000F35;
+}
+.under{
+    /* margin-top: 60px; */
+    padding-top: 30px;
+    border-top: solid #000F35 2px;
+}
+ul{
+    list-style: none;
+    padding-inline-start: 0%;
+}
+
+
+#map {
+  height: 200px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+
+
+.amazingslider-wrapper{
+    margin-bottom: 130px!important;
+}
+
+
+
+
+.boat-yacht img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+}
+.boat-yacht .by-des{
+    width: 20%;
+    padding: 15px;
+    position: relative;
+    background-color: transparent;
+    top: -870px;
+    right: 160px;
+    color: white;
+    float: right;
+}
+.boat-yacht .by-des p a{
+    font-size: 20px;
+    color: #7e7e7e;
+}
+.boat-yacht .by-des p a:hover{
+    color: #000F35;
+    cursor: pointer;
+}
+.yacht-boat img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: -70px;
+    position: relative;
+}
+.yacht-boat .des-by{
+    width: 20%;
+    padding: 15px;
+    position: relative;
+    background-color: transparent;
+    top: -870px;
+    right: 160px;
+    color: white;
+    float: right;
+}
+.yacht-boat .des-by p a{
+    font-size: 20px;
+    color: #7e7e7e;
+}
+.yacht-boat .des-by p a:hover{
+    color: #000F35;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:769px) {
+    .our-team{
+    position: relative;
+    }
+    .our-team-banner img{
+        position: relative;
+    }
+    .our-team .card-img-top{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        margin-top: -180px;
+    }
+    .our-team .card{
+        top: 500px;
+        background-color:rgba(255, 255, 255, 0.7);
+    }
+    
+}
+
+@media screen and (min-width:1441px) {
+    .our-team .card-img-top{
+        margin-top: 20px;
+    }
+}
+.our-team-banner img{
+    width: 100%;
+}
+.our-team{
+    text-align: center;
+    font-size: 14px;
+    color: #000F35;
+}
+.our-team h6{
+    color: #478AC9;
+}
+.row{
+    margin-left: 130px;
+    margin-right: 0px;
+}
+.our-team .card{
+    max-width: 80%;
+}
+.container-fluid{
+    padding-left: 0px;
+}
+.container-fluid img{
+    position: absolute;
+}
+.container-fluid .row .our-team .card{
+    margin-top: 150px;
+    background: transparent;
+    border: none;
+}
+.container-fluid .row .our-team .card img{
+    position: relative;
+}
+@media screen and (max-width: 425px) {
+    .container-fluid .row .our-team{
+        margin-top: 30px;
+        margin-left: -35px;
+    }
+    .container-fluid .row .our-team .card-one{
+        margin-top: 150px !important;
+    }
+    .container-fluid .row .our-team .card{
+        margin-top: 0%;
+    }
+    .container-fluid .row .card .card-img-top{
+        height: 200px;
+        width: 200px;
+    }
+    .footer{
+        margin-top: 0%;
+    }
+}

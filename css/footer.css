@@ -1,0 +1,65 @@
+@media screen and (min-width: 720px){
+    .footer .col-md-8{
+        max-width: 60%;
+    }
+}
+@font-face {
+    font-family: 'kazen-font';
+    src:  url('../fonts/kazen-font.woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+[class^="kz-"], [class*=" kz-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'kazen-font' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.footer{
+    margin-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #000F35;
+    border-top: solid #000F35 2px;
+    /* background-color: #000F35; */
+}
+.kz-twitter:before{
+    content: "\e94a";
+}
+.kz-facebook:before{
+    content: "\e94e";
+}
+.kz-instagram:before{
+    content: "\e94d";
+}
+.kz-pinterest:before{
+    content: "\e94b";
+}
+.footer ul li a{
+    margin-right: 10px;
+    color: #000F35;
+}
+.under{
+    /* margin-top: 60px; */
+    padding-top: 30px;
+    border-top: solid #000F35 2px;
+}
+.footer ul{
+    list-style: none;
+    padding-inline-start: 0%;
+}
+
+
+#map {
+  height: 200px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
